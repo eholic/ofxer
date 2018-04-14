@@ -3,7 +3,7 @@
 CSV to OFX converter.
 A script of converting CSV files exporting from your credit and bank account
 
-> mostly using csv2ofx function
+> mostly using [csv2ofx](https://github.com/reubano/csv2ofx)
 
 ## Requirements
 ```sh
