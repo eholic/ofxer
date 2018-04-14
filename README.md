@@ -2,6 +2,8 @@
 CSV to OFX converter.
 A script of converting CSV files exporting from your credit and bank account
 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 > mostly using csv2ofx function
 
 ## Requirements
@@ -60,6 +62,9 @@ credit1 = Ofxer('data/credit1.csv', options['credit1'])
 print(credit1._df)
 credit1.write_ofx('credit1.ofx')
 ```
+
+### License
+This code is released under the MIT License, see ![LICENSE](LICENSE)
 
 
 # Ofxer (In Japanese)
