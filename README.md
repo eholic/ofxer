@@ -13,8 +13,8 @@ $ pip install csv2ofx pandas
 ## Usage
 ### terminal
 ```sh
-$ python ofxer.py -s 1 -c 0 1 2 your_credit.csv
-$ python ofxer.py -s 1 -c 0 1 2 4 your_bank.csv
+$ python ofxer.py -s 1 -c 0 1 2 your_credit.csv -o credit.ofx
+$ python ofxer.py -s 1 -c 0 1 2 4 your_bank.csv -o bank.ofx
 ```
 
 ```
@@ -73,8 +73,8 @@ This code is released under the MIT License, see ![LICENSE](LICENSE)
 ## 使い方
 ### ターミナル
 ```sh
-$ python ofxer.py -s 1 -c 0 1 2 -e cp932 your_credit.csv
-$ python ofxer.py -s 1 -c 0 1 2 4 -e cp932 your_bank.csv
+$ python ofxer.py -s 1 -c 0 1 2 -e cp932 your_credit.csv -o credit.ofx
+$ python ofxer.py -s 1 -c 0 1 2 4 -e cp932 your_bank.csv -o bank.ofx
 ```
 
 ```
@@ -84,6 +84,7 @@ $ python ofxer.py -s 1 -c 0 1 2 4 -e cp932 your_bank.csv
    日付 タイトル 出金額 入金額
    の列番号　※カウントは0から
 -e 文字コードの指定
+-o ofxファイルの出力先
 ```
 
 ### Python
