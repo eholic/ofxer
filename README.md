@@ -1,5 +1,7 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 # Ofxer
+
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 CSV to OFX converter.
 A script of converting CSV files exported from your credit and bank account
 
