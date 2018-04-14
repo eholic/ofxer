@@ -73,6 +73,15 @@ $ python ofxer.py -s 1 -c 0 1 2 -e cp932 your_credit.csv
 $ python ofxer.py -s 1 -c 0 1 2 4 -e cp932 your_bank.csv
 ```
 
+```
+-s csvファイルの先頭を飛ばす行数(ヘッダーを含む)
+-c 日付 タイトル 支払額
+　　または
+   日付 タイトル 出金額 入金額
+   の列番号　※カウントは0から
+-e 文字コードの指定
+```
+
 ### Python
 ```python
 from ofxer import Ofxer
