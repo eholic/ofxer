@@ -65,7 +65,7 @@ credit1.write_ofx('credit1.ofx')
 ```
 
 ### License
-This code is released under the MIT License, see ![LICENSE](LICENSE)
+This code is released under the MIT License, see [LICENSE](LICENSE)
 
 
 # Ofxer (In Japanese)
