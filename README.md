@@ -2,7 +2,7 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-![](./ofxer.png)
+<img src="./ofxer.png" width="400">
 
 CSV to OFX converter.
 A script of converting CSV files exported from your credit and bank account
